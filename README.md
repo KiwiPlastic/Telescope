@@ -1,5 +1,6 @@
 # Wireless Telescope Control Using Recycled Starlink Gen2, ESP32C3 and BLE Xbox controller
-![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.PNG)
+
+![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
 ## 🚀 Features
  

@@ -4,11 +4,9 @@
 
 ## 🚀 Features
 
- 26-7-26 This is a developing project WIP
-
-## 📦 Build & Installation
-
-•	Uses Recycled Stralink Gen2 Antenna, as motorized base. These have anamzing amount of torq at low RPM 12v
+ **26-7-26 This is WIP a developing project**
+ 
+Uses Recycled Stralink Gen2 Antenna, as motorized base. These have anamzing amount of torq at low RPM 12v
 Awsome Starlink geat boxes and engineering.
 Strip anntennea to retrive the mast and motor assembly
 Have designed some parts in Fusion and 3d printed to make telecope mount onto Starlink Assembly and Tripod
@@ -18,7 +16,11 @@ Exploring connetion to Stellarium Astronomy Software API
 Cheap USB camera lens camera
 see what we get
 
-### Hardware: -
+## 📦 Build & Installation
+
+To be updated....
+
+### Hardware: 
     1 x ESP32-C3
    
 

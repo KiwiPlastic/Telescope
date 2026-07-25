@@ -3,11 +3,20 @@
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
 ## 🚀 Features
- 
+
+ 26-7-26 This is a developing project WIP
 
 ## 📦 Build & Installation
 
-•	See this link for Wall-E Assembly Instructions and Videos by Chillbasket (https://wired.chillibasket.com/3d-printed-wall-e/) 
+•	Uses Recycled Stralink Gen2 Antenna, as motorized base. These have anamzing amount of torq at low RPM 12v
+Awsome Starlink geat boxes and engineering.
+Strip anntennea to retrive the mast and motor assembly
+Have designed some parts in Fusion and 3d printed to make telecope mount onto Starlink Assembly and Tripod
+Use L298 H Bridge to interface 2 motors to ESP32c3
+Use BLE Xbox controler to move and focus
+Exploring connetion to Stellarium Astronomy Software API
+Cheap USB camera lens camera
+see what we get
 
 ### Hardware: -
     1 x ESP32-C3

@@ -23,15 +23,13 @@ To be updated....
 ### Hardware: 
     1 x ESP32-C3
    
+### Diagrm 
+New Diagram to Come 
 
 ![circuit](https://github.com/KiwiPlastic/Wall-E_ESP32-C3_BLE_Gamepad_Ctrl/blob/main/Images/Wall-E%20CCT.png?raw=true)
 
-
-
 ## 🛠️ Usage
-
-
-    
+To be updated
 ### BLE Gamepad - Xbox controler - Button Map :-
     Tracks turn left/right  	Left Stick X (hoz)      
     Tracks forward/back       Left Stick Y (Vert) 

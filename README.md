@@ -1,6 +1,5 @@
 # Wireless Telescope Control Using Recycled Starlink Gen2, ESP32C3 and BLE Xbox controller
-
-![Walle-E Chillibasket](https://github.com/KiwiPlastic/Wall-E_ESP32-C3_BLE_Gamepad_Ctrl/blob/main/Images/Chillibasket1.jpg?raw=true)
+![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.JPG)
 
 ## 🚀 Features
  

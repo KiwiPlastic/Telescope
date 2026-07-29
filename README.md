@@ -21,35 +21,40 @@ Being frustrated with aligning a cheap Telescope and keeping it on target a upgr
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink2.JPG?raw=true)
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink3.JPG?raw=true)
 
+The stripped down Starlink Antenna
+
 ### Hardware: 
     1 x ESP32-C3
-   
+    1 x L298 Stepper motor / H Bridge
+    1 x 3v to 5v level converter
+    1 x 5 amp Buck
+    1 x DFRobot IMU LHS303
+    1 X GPS NEO6
+    
 ### Diagrm 
-New Diagram to Come 
 
-![circuit](https://github.com/KiwiPlastic/Wall-E_ESP32-C3_BLE_Gamepad_Ctrl/blob/main/Images/Wall-E%20CCT.png?raw=true)
+![circuit](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope_CCT.png?raw=true)
 
-## 🛠️ Usage
-To be updated
-### BLE Gamepad - Xbox controler - Button Map :-
-    Tracks turn left/right  	Left Stick X (hoz)      
-    Tracks forward/back       Left Stick Y (Vert) 
-    Head rotation           	Right Stick X
-    Head Up/Down            	Right Stick Y
-    Neck Bottom             	Button A + Dpad Up/Dwn
-    Lhs Eye                 	Button X + Dpad Up/Dwn
-    Lhs Eyebrow             	Button X + Dpad Left/Right
-    Rhs Eye                 	Button B + Dpad Up/Dwn
-    Rhs Eyebrow             	Button B + Dpad Left/Right
-    Bay Door Open/Close      	Button Y + Dpad Left Right
-    Left Arm               	  Left Trigger  + Dpad Up/Dwn
-    Right Arm              	  Right Trigger + Dpad Up/Dwn
-    Play Sound              	Left Bumper + Dpad Left/Right - can crash
-    Motor dead zone         	Left Bumper + Dpad Up/Dwn - 0 to 250
-    LEDS move               	Right Bumper + Dpad Left/Right - loop x 4
-    Steering Offset         	Right Bumper + Dpad Up/Dwn -  -100 to 100
-    Animation Number          ViewButton +  Dpad Up/Dwn
-    Automonus Mode    	      MenuButton On/Off toggel
+## 🛠️ BLE Gamepad - Xbox Controler - Button Map
+
+    Left Stick X (hoz)      
+    Left Stick Y (Vert)  
+    Right Stick X
+   	Right Stick Y
+    Button A + Dpad Up/Dwn
+   	Button X + Dpad Up/Dwn
+    Button X + Dpad Left/Right
+    Button B + Dpad Up/Dwn
+    Button B + Dpad Left/Right
+    Button Y + Dpad Left Right
+    Left Trigger  + Dpad Up/Dwn
+    Right Trigger + Dpad Up/Dwn
+    Left Bumper + Dpad Left/Right - can crash
+    Left Bumper + Dpad Up/Dwn - 0 to 250
+    Right Bumper + Dpad Left/Right - loop x 4
+    Right Bumper + Dpad Up/Dwn -  -100 to 100
+    ViewButton +  Dpad Up/Dwn
+    MenuButton On/Off toggel
     Dpad Up                 	adjust up
     Dpad Down               	adjust down
     Dpad Left               	adjust left

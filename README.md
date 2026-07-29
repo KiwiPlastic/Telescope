@@ -2,23 +2,24 @@
 
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
-## 🚀 Features
+## 🚀 Summary
 
  **26-7-26 This is WIP a developing project**
- 
-Uses Recycled Stralink Gen2 Antenna, as motorized base. These have anamzing amount of torq at low RPM 12v
-Awsome Starlink geat boxes and engineering.
-Strip anntennea to retrive the mast and motor assembly
-Have designed some parts in Fusion and 3d printed to make telecope mount onto Starlink Assembly and Tripod
-Use L298 H Bridge to interface 2 motors to ESP32c3
-Use BLE Xbox controler to move and focus
-Exploring connetion to Stellarium Astronomy Software API
-Cheap USB camera lens camera
-see what we get
+Being frustrated with aligning a cheap Telescope and keeping it on target a upgrade is required
+
+ - The Starlink Gen 2 Antenna has a very strong gimble motor setup. These have anamzing amount of torq at low RPM 12v
+ - Have remove the Antenna part and kept the base and motor assembly
+ - Have designed some parts in Fusion 360 and 3d printed to make Telecope mount onto Starlink Assembly and Tripod
+ - Useing L298 H Bridge to interface the 2 motors to ESP32C3
+ - Useig BLE Gamecontroler (Xbox) to move and focus
+ - Exploring connetion to Stellarium Astronomy Software API
+ - Cheap USB camera lens camera
+ - See what we get
 
 ## 📦 Build & Installation
 
-To be updated....
+![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink2.JPG?raw=true)
+![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink3.JPG?raw=true)
 
 ### Hardware: 
     1 x ESP32-C3

@@ -12,11 +12,26 @@ Being frustrated with aligning a cheap Telescope and keeping it on target a upgr
  - Have designed some parts in Fusion 360 and 3d printed to make Telecope mount onto Starlink Assembly and Tripod
  - Useing L298 H Bridge to interface the 2 motors to ESP32C3
  - Useig BLE Gamecontroler (Xbox) to move and focus
- - Exploring connetion to Stellarium Astronomy Software API
- - Cheap USB camera lens camera
+ - Exploring connetion to Stellarium Astronomy Software API to use Goto function
+ - SharpCap Image capture software may also suport Goto
+ - Cheap USB camera lens camera MD-205
  - See what we get
 
 ## 📦 Build & Installation
+
+Cheap Telescope usage is not the best start but this is a low budget project
+Telscope Improvements
+Hang wight from center of tripod
+Ensure all tripod bolts are tight
+Ensure focuse tube is tight (no wobbel)
+Service Focus Rack and pinnion adjustment - should slid firm but easy
+
+**USB Camera**
+Found a ceap Eyepeace Camera MD-205 $25USD
+This vid is great ....
+Useing Sharpcap v4, astro camera software. Was plug and play.
+
+**Starlink Gen2 Atenna Base**
 
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink2.JPG?raw=true)
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink3.JPG?raw=true)

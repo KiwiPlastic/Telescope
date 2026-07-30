@@ -5,6 +5,7 @@
 ## 🚀 Summary
 
  **26-7-26 This is WIP a developing project**
+ 
 Being frustrated with aligning a cheap Telescope and keeping it on target a upgrade is required
 
  - The Starlink Gen 2 Antenna has a very strong gimble motor setup. These have anamzing amount of torq at low RPM 12v
@@ -14,22 +15,26 @@ Being frustrated with aligning a cheap Telescope and keeping it on target a upgr
  - Useig BLE Gamecontroler (Xbox) to move and focus
  - Exploring connetion to Stellarium Astronomy Software API to use Goto function
  - SharpCap Image capture software may also suport Goto
- - Cheap USB camera lens camera MD-205
+ - Cheap USB camera lens camera MD-205 (this is the only part im actualy byeing, rest is stock and time)
  - See what we get
 
 ## 📦 Build & Installation
 
-Cheap Telescope usage is not the best start but this is a low budget project
-Telscope Improvements
-Hang wight from center of tripod
-Ensure all tripod bolts are tight
-Ensure focuse tube is tight (no wobbel)
-Service Focus Rack and pinnion adjustment - should slid firm but easy
+Cheap Telescope usage is not the best start, but this is a very low budget project
+
+ - Telscope Improvements
+   - Hang wight from center of tripod
+   - Ensure all tripod bolts are tight
+   - Ensure focuse tube is tight (no wobbel)
+   - Service Focus Rack and pinnion adjustment - should slid firm but easy
+ - Leave Telescope outside for 1/2 hour for temp to stabalize. Tube open
+ - Takes half hour for night vision to be good. Site ing dar room
+ - Go outside fill preped with tools, food, water, warmth
 
 **USB Camera**
-Found a ceap Eyepeace Camera MD-205 $25USD
-This vid is great ....
-Useing Sharpcap v4, astro camera software. Was plug and play.
+ - Found a ceap Eyepeace Camera MD-205 $25USD
+ - This vid is great ....
+ - Useing Sharpcap v4, astro camera software. Was plug and play.
 
 **Starlink Gen2 Atenna Base**
 
@@ -64,10 +69,10 @@ The stripped down Starlink Antenna
     Button Y + Dpad Left Right
     Left Trigger  + Dpad Up/Dwn
     Right Trigger + Dpad Up/Dwn
-    Left Bumper + Dpad Left/Right - can crash
-    Left Bumper + Dpad Up/Dwn - 0 to 250
-    Right Bumper + Dpad Left/Right - loop x 4
-    Right Bumper + Dpad Up/Dwn -  -100 to 100
+    Left Bumper + Dpad Left/Right 
+    Left Bumper + Dpad Up/Dwn 
+    Right Bumper + Dpad Left/Right 
+    Right Bumper + Dpad Up/Dwn 
     ViewButton +  Dpad Up/Dwn
     MenuButton On/Off toggel
     Dpad Up                 	adjust up

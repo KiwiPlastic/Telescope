@@ -1,16 +1,4 @@
-i have a Telescope
 
-That’s great! What would you like help with regarding your telescope?
-
-For example, I can help with:
-
-Identifying the telescope model
-Setting it up and aligning it
-Choosing eyepieces or accessories
-Finding planets, stars, or deep-sky objects to observe
-Troubleshooting issues (blurry images, tracking problems, etc.)
-
-If you tell me the brand and model, or upload a photo, I can give more specific advice.
 
 If i provide GPS, and altitude corodinates and IMU 6 axis cordinates, can you align to using this info
 
@@ -146,7 +134,7 @@ Code reviews and debugging.
 
 This has the potential to become a genuinely useful platform for the amateur astronomy community: a fully open, camera-assisted GoTo telescope controller that isn't tied to proprietary hardware or software. I'd enjoy helping you build it step by step.
 
-excilent your in. I have some electronics to put togeather on the Telescope. To gove Goto control. So i do that and get ack to you
+
 
 That sounds like a great plan. I'd be glad to work on it with you.
 
@@ -205,16 +193,7 @@ I genuinely think this has the potential to become a useful open-source telescop
 
 Good luck with the electronics. Once you've got the motors turning and the sensors talking, come back with whatever you have—schematics, photos, PCB layouts, or code—and we'll work through the next stage together. I look forward to seeing it take shape.
 
-cool thanks 
-KiwiPlastic/Telescope
 
-That's a great start!
-
-Your repository is:
-
-KiwiPlastic/Telescope
-
-I had a look at the repository name, and I think it's a good place to grow this into a complete open-source telescope platform.
 
 One suggestion I'd make early is to organize the project around capabilities rather than hardware. For example:
 

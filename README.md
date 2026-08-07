@@ -1,24 +1,42 @@
-# Telescope Goto Control, Using Recycled Starlink Gen2, ESP32C3 and Wireless BLE controller
-
+# Telescope - ESP32C3 and Wireless BLE controller - Using Recycled Starlink Gen2 Antenn Motors & assembly
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
 ## 🚀 Summary
-
- **26-7-26 This is WIP a developing project**
  
-Being frustrated with aligning a cheap Telescope and keeping it on target a upgrade is required
+Being frustrated with aligning a cheap Telescope and keeping it on Target, a upgrade is required.
 
+**Goals:**
+  - To control Telescope via Xbox controler, to ensure stable Targeting
+  - Get nice digital pictures of Moon
+  - Absolute minial cost as might not gte into it
+
+Angeleys MD-205 Eyepeace camer was the only thing purchased. This is the equivilent of the SV-205
+
+All other parts ex stock
+
+ **Starlink Gen 2 Antenna**
  - The Starlink Gen 2 Antenna has a very strong gimble motor setup. These have anamzing amount of torq at low RPM 12v
- - Have remove the Antenna part and kept the base and motor assembly
+ - Have removed the Antenna part and kept the base and motor assembly. Use a grinder to open it up
  - Have designed some parts in Fusion 360 and 3d printed to make Telecope mount onto Starlink Assembly and Tripod
- - Useing L298 H Bridge to interface the 2 motors to ESP32C3
- - Useig BLE Gamecontroler (Xbox) to move and focus
- - Cheap USB Eyepeace camera MD-205 (this is the only part im actualy byeing, rest is stock and time)
- - Exploring connetion to Stellarium Astronomy Software API to use Goto function
- - SharpCap Image capture software may also suport Goto
+ 
+ **Electronics**  
+ - ESP32C3 BLE WiFi 
+ - L298 H Bridge to interface the 2 Starlink motors to ESP32C3
+ - IMU (Future development)
+ - GPS (Future development)
+ - BLE Xbox Game controler as wireless handcontroler to initiate movement
+ - Cheap USB Eyepeace camera Angeleyes MD-205 (this is the only part im actualy byeing, rest is stock and time)
+ - SharpCap Image capture software
+ - See what we get
+
+ **Futre Developments**
+ - IMU dadt output
+ - GPS Data output
+ - Orientate Telescope
  - ChatGPT conferims can orientate from Date/Time, GPS, IMU data, for orienation and then Goto
  - ChatGPT can provid calculations and interfacing suport
- - See what we get
+ - Tracking to compensate eart movement
+ - Exploring connetion to Stellarium Astronomy Software API to use Goto function
 
 ## 📦 Build & Installation
 

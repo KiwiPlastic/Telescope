@@ -1,4 +1,4 @@
-# Telescope - ESP32C3 and Wireless BLE controller - Using Recycled Starlink Gen2 Antenn Motors & assembly
+# Telescope - ESP32C3 and Wireless BLE controller - Using Recycled Starlink Gen2 Antenna Motors & assembly
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
 ## 🚀 Summary
@@ -6,13 +6,17 @@
 Being frustrated with aligning a cheap Telescope and keeping it on Target, a upgrade is required.
 
 **Goals:**
-  - To control Telescope via Xbox controler, to ensure stable Targeting
-  - Get nice digital pictures of Moon
-  - Absolute minial cost as might not gte into it
+  - To control Telescope via Xbox controler, to ensure stable Targetting
+  - Get nice digital pictures of the Moon
+  - Absolute minimal cost, as might not get into it
 
-Angeleys MD-205 Eyepeace camer was the only thing purchased. This is the equivilent of the SV-205
+Angeleys MD-205 Eyepeace camera was the only thing purchased. This is the equivilent of the SV-205
 
 All other parts ex stock
+
+Alt-Azimuth Mount: It goes up and down (altitude) and left and right (azimuth)
+
+Equatorial Mount: It has two axes, but one is tilted to match the angle of the Earth's axis
 
  **Starlink Gen 2 Antenna**
  - The Starlink Gen 2 Antenna has a very strong gimble motor setup. These have anamzing amount of torq at low RPM 12v
@@ -35,16 +39,14 @@ All other parts ex stock
  - Orientate Telescope
  - ChatGPT conferims can orientate from Date/Time, GPS, IMU data, for orienation and then Goto
  - ChatGPT can provid calculations and interfacing suport
- - Tracking to compensate eart movement
+ - Tracking to compensate earths movement
  - Exploring connetion to Stellarium Astronomy Software API to use Goto function
 
 ## 📦 Build & Installation
 
 **Research**
-
  - Cheap Telescope usage is not the best start, but this is a very low budget project.
- - This camera and Telescope are only suitable for planetery observations
- - The concepts of this design will allow multi choices of hardware 
+ - The Eyepeace camera model and Telescope are only suitable for planetery observations, not deep space
  - Cheap Telscope Improvements
    - Hang wight from center of tripod
    - Ensure all tripod bolts are tight
@@ -52,12 +54,18 @@ All other parts ex stock
    - Service Focus Rack and pinnion adjustment - should slid firm but easy
  - Leave Telescope outside for 1/2 hour for temp to stabalize. Tube open
  - Takes half hour for night vision to be good. Sit in dark room while waiting
- - when you go outside, be fully prepeard with tools, food, water, warmth, chair
+ - when you go outside, be fully prepeard with tools, food, water, warm clothing, chair
 
 **USB Camera**
- - Found a ceap Eyepeace Camera MD-205 $25USD ( Aliexpress)
- - ![This vid is great, explaing these cameras](https://www.youtube.com/watch?v=IZJV7a9rAaU)
- - Useing Sharpcap v4, astro camera software. Was plug and play.
+ - Angeleys MD-205 200W Eyepeace camera $25USD ( Aliexpress)
+ - CCD/CMOS 1080P
+ - 8MP
+ - 24bit RGB
+ - Sensor Size: 1/2.7 inch
+    
+![This vid is great, explaning these cameras](https://www.youtube.com/watch?v=IZJV7a9rAaU)
+
+ - Useing Sharpcap v4, astro camera software. Was plug and play
 
 **Starlink Gen2 Atenna Base**
 

@@ -1,32 +1,52 @@
-# Telescope Goto Control, Using Recycled Starlink Gen2, ESP32C3 and Wireless BLE controller
-
+# Telescope - ESP32C3 and Wireless BLE controller - Using Recycled Starlink Gen2 Antenna Motors & assembly
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
 
 ## 🚀 Summary
-
- **26-7-26 This is WIP a developing project**
  
-Being frustrated with aligning a cheap Telescope and keeping it on target a upgrade is required
+Being frustrated with aligning a cheap Telescope and keeping it on Target, a upgrade is required.
 
+**Goals:**
+  - To control Telescope via Xbox controler, to ensure stable Targetting
+  - Get nice digital pictures of the Moon
+  - Absolute minimal cost, as might not get into it
+
+Angeleys MD-205 Eyepeace camera was the only thing purchased. This is the equivilent of the SV-205
+
+All other parts ex stock
+
+Alt-Azimuth Mount: It goes up and down (altitude) and left and right (azimuth)
+
+Equatorial Mount: It has two axes, but one is tilted to match the angle of the Earth's axis
+
+ **Starlink Gen 2 Antenna**
  - The Starlink Gen 2 Antenna has a very strong gimble motor setup. These have anamzing amount of torq at low RPM 12v
- - Have remove the Antenna part and kept the base and motor assembly
+ - Have removed the Antenna part and kept the base and motor assembly. Use a grinder to open it up
  - Have designed some parts in Fusion 360 and 3d printed to make Telecope mount onto Starlink Assembly and Tripod
- - Useing L298 H Bridge to interface the 2 motors to ESP32C3
- - Useig BLE Gamecontroler (Xbox) to move and focus
- - Cheap USB Eyepeace camera MD-205 (this is the only part im actualy byeing, rest is stock and time)
- - Exploring connetion to Stellarium Astronomy Software API to use Goto function
- - SharpCap Image capture software may also suport Goto
+ 
+ **Electronics**  
+ - ESP32C3 BLE WiFi 
+ - L298 H Bridge to interface the 2 Starlink motors to ESP32C3
+ - IMU (Future development)
+ - GPS (Future development)
+ - BLE Xbox Game controler as wireless handcontroler to initiate movement
+ - Cheap USB Eyepeace camera Angeleyes MD-205 (this is the only part im actualy byeing, rest is stock and time)
+ - SharpCap Image capture software
+ - See what we get
+
+ **Futre Developments**
+ - IMU dadt output
+ - GPS Data output
+ - Orientate Telescope
  - ChatGPT conferims can orientate from Date/Time, GPS, IMU data, for orienation and then Goto
  - ChatGPT can provid calculations and interfacing suport
- - See what we get
+ - Tracking to compensate earths movement
+ - Exploring connetion to Stellarium Astronomy Software API to use Goto function
 
 ## 📦 Build & Installation
 
 **Research**
-
  - Cheap Telescope usage is not the best start, but this is a very low budget project.
- - This camera and Telescope are only suitable for planetery observations
- - The concepts of this design will allow multi choices of hardware 
+ - The Eyepeace camera model and Telescope are only suitable for planetery observations, not deep space
  - Cheap Telscope Improvements
    - Hang wight from center of tripod
    - Ensure all tripod bolts are tight
@@ -34,12 +54,18 @@ Being frustrated with aligning a cheap Telescope and keeping it on target a upgr
    - Service Focus Rack and pinnion adjustment - should slid firm but easy
  - Leave Telescope outside for 1/2 hour for temp to stabalize. Tube open
  - Takes half hour for night vision to be good. Sit in dark room while waiting
- - when you go outside, be fully prepeard with tools, food, water, warmth, chair
+ - when you go outside, be fully prepeard with tools, food, water, warm clothing, chair
 
 **USB Camera**
- - Found a ceap Eyepeace Camera MD-205 $25USD ( Aliexpress)
- - ![This vid is great, explaing these cameras](https://www.youtube.com/watch?v=IZJV7a9rAaU)
- - Useing Sharpcap v4, astro camera software. Was plug and play.
+ - Angeleys MD-205 200W Eyepeace camera $25USD ( Aliexpress)
+ - CCD/CMOS 1080P
+ - 8MP
+ - 24bit RGB
+ - Sensor Size: 1/2.7 inch
+    
+![This vid is great, explaning these cameras](https://www.youtube.com/watch?v=IZJV7a9rAaU)
+
+ - Useing Sharpcap v4, astro camera software. Was plug and play
 
 **Starlink Gen2 Atenna Base**
 

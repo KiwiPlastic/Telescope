@@ -1,5 +1,6 @@
 # Telescope - ESP32C3 and Wireless BLE controller - Using Recycled Starlink Gen2 Antenna Motors & assembly
-![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope.png?raw=true)
+
+<img width="407" height="307" alt="IMG_0875" src="https://github.com/user-attachments/assets/e0b09a7b-1b3b-4ff1-9b02-4988b018c00c" />
 
 ## 🚀 Summary
  
@@ -62,8 +63,8 @@ Equatorial Mount: It has two axes, but one is tilted to match the angle of the E
  - 8MP
  - 24bit RGB
  - Sensor Size: 1/2.7 inch
-    
-![This vid is great, explaning these cameras](https://www.youtube.com/watch?v=IZJV7a9rAaU)
+   
+ This is a good help to get image from the 205 camera:   https://www.youtube.com/watch?v=IZJV7a9rAaU
 
  - Useing Sharpcap v4, astro camera software. Was plug and play
 
@@ -71,6 +72,7 @@ Equatorial Mount: It has two axes, but one is tilted to match the angle of the E
 
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink2.JPG?raw=true)
 ![](https://github.com/KiwiPlastic/Telescope/blob/main/Images/StarLink3.JPG?raw=true)
+<img width="307" height="422" alt="IMG_0856" src="https://github.com/user-attachments/assets/7616a28f-1a0f-4237-8f90-6b572c436f77" />
 
 The stripped down Starlink Antenna
 
@@ -85,6 +87,9 @@ The stripped down Starlink Antenna
 ### Diagrm 
 
 ![circuit](https://github.com/KiwiPlastic/Telescope/blob/main/Images/Telescope_CCT.png?raw=true)
+
+<img width="407" height="303" alt="IMG_0876" src="https://github.com/user-attachments/assets/1b67f2f1-69e0-4d96-8474-1bb7fc5c07f3" />
+
 
 ## 🛠️ BLE Gamepad - Xbox Controler - Button Map
 
